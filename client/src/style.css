@@ -76,3 +76,34 @@ body {
 .game-card a:hover {
   text-decoration: underline;
 }
+
+.single-game {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 10px;
+}
+
+.single-game h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.game-meta {
+  margin-bottom: 1.5rem;
+  color: #94a3b8;
+}
+
+.back-button {
+  display: inline-block;
+  margin-top: 2rem;
+  padding: 0.6rem 1.2rem;
+  background: #334155;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  transition: background 0.2s ease;
+}
+
+.back-button:hover {
+  background: #475569;
+}

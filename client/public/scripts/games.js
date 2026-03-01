@@ -60,33 +60,23 @@ async function renderGames() {
 
 async function renderSingleGame(slug) {
     const response = await fetch(`http://localhost:3000/api/games/${slug}`)
-
-    if (!response.ok) {
-        app.textContent = 'Game not found'
-        return
-    }
-
     const game = await response.json()
 
-    console.log(game)
+    const wrapper = document.createElement('div')
+    wrapper.className = 'single-game'
 
-    const container = document.createElement('div')
-    container.className = 'single-game-container'
-
-    const title = document.createElement('h1')
+    const title = document.createElement('h2')
     title.textContent = game.title
 
-    const info = document.createElement('p')
-    info.textContent = `${game.genre} | Released: ${game.release}`
+    const meta = document.createElement('div')
+    meta.className = 'game-meta'
+    meta.innerHTML = `${game.genre} • Released ${game.release} • ${game.developer}`
 
-    const dev = document.createElement('p')
-    dev.textContent = `Developer: ${game.developer}`
+    const description = document.createElement('p')
+    description.textContent = game.description
 
-    const desc = document.createElement('p')
-    desc.textContent = game.description
-
-    container.append(title, info, dev, desc)
-    document.getElementById('app').append(container)
+    wrapper.append(title, meta, description)
+    gamesContainer.append(wrapper)
 }
 
 document.getElementById('app').append(gamesContainer)
