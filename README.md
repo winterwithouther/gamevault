@@ -2,9 +2,9 @@
 
 Submitted by: **Eman Gurung*
 
-About this web app: **App description here**
+About this web app: GameVault is as web based application where you can view a list of games and information about those games!
 
-Time spent: **X** hours
+Time spent: 5 hours
 
 ## Required Features
 
@@ -44,7 +44,7 @@ Describe any challenges encountered while building the app or any additional con
 
 ## License
 
-Copyright [yyyy] [name of copyright owner]
+Copyright 2026 Eman Gurung
 
 Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at
 
