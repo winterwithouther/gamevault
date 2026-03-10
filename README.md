@@ -1,6 +1,6 @@
-# WEB103 Project 2 - *Name of App Here*
+# WEB103 Project 2 - *GameVault*
 
-Submitted by: **Your name here**
+Submitted by: **Eman Gurung*
 
 About this web app: **App description here**
 
@@ -11,10 +11,10 @@ Time spent: **X** hours
 The following **required** functionality is completed:
 
 <!-- Make sure to check off completed functionality below -->
-- [ ] **The web app uses only HTML, CSS, and JavaScript without a frontend framework**
-- [ ] **The web app is connected to a PostgreSQL database, with an appropriately structured database table for the list items** 
-  - [ ] **NOTE: Your walkthrough added to the README must include a view of your Render dashboard demonstrating that your Postgres database is available**
-  - [ ]  **NOTE: Your walkthrough added to the README must include a demonstration of your table contents. Use the psql command 'SELECT * FROM tablename;' to display your table contents.**
+- [X] **The web app uses only HTML, CSS, and JavaScript without a frontend framework**
+- [X] **The web app is connected to a PostgreSQL database, with an appropriately structured database table for the list items** 
+  - [X] **NOTE: Your walkthrough added to the README must include a view of your Render dashboard demonstrating that your Postgres database is available**
+  - [X]  **NOTE: Your walkthrough added to the README must include a demonstration of your table contents. Use the psql command 'SELECT * FROM tablename;' to display your table contents.**
 
 
 The following **optional** features are implemented:
